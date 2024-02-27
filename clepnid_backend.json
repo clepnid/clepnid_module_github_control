@@ -1,0 +1,11 @@
+[
+	{
+		"Web": {
+			"TypeModule": "Sistema",
+			"Title": "github_control",
+			"ComandOpen": "pip install pipreqs | pip install -r requirements.txt | python main.py [LOG=archivo_salida.txt]",
+			"ComandClose": "taskkill /f /im python.exe",
+			"ChangePath": "yes"
+		}
+	}
+]
